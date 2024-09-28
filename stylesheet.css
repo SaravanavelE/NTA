@@ -1,0 +1,29 @@
+ul { background-size: 50px;
+            list-style-type: none;
+            padding: 0;
+            overflow: hidden;
+            background-color: orange;
+            color: white;
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            background-color:rgb(7, 180, 79);
+            color: white;
+        }
+
+        table,td,tr{
+            border: 2px rgb(7, 180, 79);
+            border-collapse: collapse;
+        }
